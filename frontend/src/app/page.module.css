@@ -1,0 +1,11 @@
+.link{
+  color: white;
+  text-decoration: none;
+}
+.link:hover{
+  color: violet;
+}
+
+.text{
+  color: white;
+}
