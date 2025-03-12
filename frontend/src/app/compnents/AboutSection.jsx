@@ -61,7 +61,7 @@ const AboutSection = () => {
           I am currently an undergraduate student pursuing a BSc in Information Technology for Business and have successfully completed my Diploma with a Distinction Pass.
            I also have a strong academic background, having passed my A/Ls in the Physical Science stream.
 
-          With expertise in front-end and back-end development, I specialize in: <br />
+          With expertise in front-end and back-end development, I specialize in:
 
           <li>Web Technologies: HTML, CSS, JavaScript, PHP, Bootstrap</li>
            <li>Frameworks & Libraries: MERN Stack (MongoDB, Express.js, React.js, Node.js)</li> 
