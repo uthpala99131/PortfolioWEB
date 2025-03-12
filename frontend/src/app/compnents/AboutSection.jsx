@@ -55,7 +55,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-1 px-4 xl:gap-16 sm:py-8 xl:px-16">
         <Image src="/images/b3.png" alt="image not found" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-900">About Me</h2>
+          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-900 py-6">About Me</h2>
           <p className="text-base lg:text-lg text-justify">
           Hi, I'm Uthpala Abeysinghe, an aspiring UI/UX Designer and Full-Stack Developer passionate about creating seamless digital experiences. 
           I am currently an undergraduate student pursuing a BSc in Information Technology for Business and have successfully completed my Diploma with a Distinction Pass.
@@ -70,7 +70,7 @@ const AboutSection = () => {
 
           Let's connect and create something amazing together!
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8 mb-2 text-purple-600 hover:text-pink-400">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -93,7 +93,7 @@ const AboutSection = () => {
               Certifications{" "}
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-0">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
