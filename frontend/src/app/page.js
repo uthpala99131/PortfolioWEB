@@ -10,11 +10,12 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#000000]">
       <Navbar />
-      <div className="w-full h-screen">
+      <div className="w-full h-screen opacity-100">
         <Hero />
         <div className="container mt-24 mx-auto px-0 py-0">
-        <AchievementsSection />
+        
         <AboutSection />
+        <AchievementsSection />
         <ProjectsSection />
         <EmailSection />
       </div>
