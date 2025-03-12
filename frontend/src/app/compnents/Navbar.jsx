@@ -24,7 +24,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto border border-[#200112] top-0 left-0 right-0 z-10 bg-[#1a0017] bg-opacity-100">
+    <nav className="fixed mx-auto border border-[#200112] top-0 left-0 right-0 z-30 bg-[#1a0017] bg-opacity-60 ">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
@@ -33,7 +33,7 @@ const Navbar = () => {
           Uthpala <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-600">
           Abeysinghe</span>
         </Link>
-        <div className="mobile-menu block md:hidden">
+        <div className="mobile-menu text- block md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}

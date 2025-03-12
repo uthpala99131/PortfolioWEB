@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="w-full h-screen bg-[url('/sydn ey.png')] bg-cover bg-center flex items-center justify-center text-white relative">
-      <div className="absolute inset-0 bg-gradient-to-t from-black to-purple-800 opacity-50 z-5"></div>
+    <section className="w-full h-screen bg-[url('/t1.png')] bg-cover bg-center flex items-center justify-center  text-white relative px-0 py-0 mx-0 my-0">
+      <div className="absolute inset-0 bg-gradient-to-t from-black to-black opacity-92 z-5"></div>
       <div className="grid grid-cols-1 sm:grid-cols-12 items-center justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -61,4 +61,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
