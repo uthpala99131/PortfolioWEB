@@ -10,7 +10,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
-        <li>Express</li>
+        <li>Next.js</li>
         <li>HTML/CSS</li>
         <li>Wordpress</li>
         <li>JavaScript</li>
@@ -23,8 +23,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
+        <li>having passed my A/Ls in the Physical Science stream</li>
         <li>Complete Diploma in Business Information System with Distinction</li>
         <li>BSc Undergraduate Information technology for business</li>
+        
       </ul>
     ),
   },
@@ -33,8 +35,12 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>MERN Stack - Simplilearn</li>
+        <li>Introduction to software Testing - Simplilearn </li>
+        <li>Fundamentals of Evaluating Software Quality - Alison </li>
+        <li>UI/UX Course - Greatlearning </li>
+        <li>Frontend Development - Greatlearning </li>
+        <li>Agile Development - Greatlearning </li>
       </ul>
     ),
   },
