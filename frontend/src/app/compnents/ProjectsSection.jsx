@@ -5,14 +5,10 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  { id: 1, title: "My Portfolio Website", description: "Project 1 description", image: "/images/projects/p.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
-  { id: 2, title: "Superfresh Supermarket Website wordpress", description: "Project 2 description", image: "/images/projects/s.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
-  { id: 3, title: "AI Chat Bot", description: "Project 3 description", image: "/images/projects/c.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
-  { id: 4, title: "Bassunnahe Website", description: "Project 4 description", image: "/images/projects/b.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
-  { id: 5, title: "React Firebase Template", description: "Authentication and CRUD operations", image: "/images/projects/5.png", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
-  { id: 6, title: "Full-stack Roadmap", description: "Project 5 description", image: "/images/projects/6.png", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
-  { id: 6, title: "Full-stack Roadmap", description: "Project 5 description", image: "/images/projects/6.png", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
-  { id: 6, title: "Full-stack Roadmap", description: "Project 5 description", image: "/images/projects/6.png", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
+  { id: 1, title: "My Portfolio Website", description: "My portfolio website.Using MERN Stack & Next.js", image: "/images/projects/p.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
+  { id: 2, title: "Superfresh Supermarket Website wordpress", description: "SuperFresh Website. Using Wordpress", image: "/images/projects/s.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
+  { id: 3, title: "AI Chat Bot", description: "Using HTML,CSS,Java script & AI Api", image: "/images/projects/c.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
+  { id: 4, title: "Bassunnahe Website", description: "Only Frontend Development (Backend(Pending))-HTML,CSS,Boostrap", image: "/images/projects/b.jpg", tag: ["All", "Web"], gitUrl: "/", previewUrl: "/" },
 ];
 
 const ProjectsSection = () => {
