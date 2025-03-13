@@ -1,10 +1,13 @@
 import Hero from "./compnents/Hero";
 import Navbar from "./compnents/Navbar";
 import AboutSection from "./compnents/AboutSection";
+import AchievementsSection from "./compnents/AchievementsSection";
 import ProjectsSection from "./compnents/ProjectsSection";
 import EmailSection from "./compnents/EmailSection";
+import Skills from "./compnents/Skills";
 import Footer from "./compnents/Footer";
-import AchievementsSection from "./compnents/AchievementsSection";
+
+
 
 export default function Home() {
   return (
@@ -16,6 +19,7 @@ export default function Home() {
         
         <AboutSection />
         <AchievementsSection />
+        <Skills />
         <ProjectsSection />
         <EmailSection />
       </div>

@@ -3,6 +3,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Herocontent from "./HeroContent";
 
 const Hero = () => {
   return (
@@ -47,7 +48,6 @@ const Hero = () => {
     </span>
   </Link>
 </div>
-
 
 
         </motion.div>
