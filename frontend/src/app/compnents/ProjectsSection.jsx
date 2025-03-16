@@ -96,6 +96,7 @@ const ProjectsSection = () => {
             disabled={currentPage === totalPages}
             className="px-4 py-2 bg-gray-700 text-white rounded-lg disabled:opacity-50"
           >
+            
             Next
           </button>
         </div>
